@@ -43,11 +43,11 @@ INSTALLED_APPS = [
     'rest_framework',
 ]
 
-# LOCAL_APPS =[
-#     ''
-# ]
-# 
-# INSTALLED_APPS = INSTALLED_APPS + LOCAL_APPS
+LOCAL_APPS =[
+    'blog',
+]
+
+INSTALLED_APPS = INSTALLED_APPS + LOCAL_APPS
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
